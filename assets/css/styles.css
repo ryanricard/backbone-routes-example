@@ -1,0 +1,32 @@
+body {
+	padding: 50px;
+}
+
+div.container > h1 {
+	margin: 15px 0 30px 0;
+}
+
+div.form-container {
+	margin:  25px 0;
+}
+
+div.list-container {
+	margin:  25px 0;
+}
+
+.alert-message {
+	font-weight: bold !important;
+}
+
+li > span {
+	width: 250px;
+	display: inline-block;
+}
+
+li > button {
+	margin-left: 35px;
+}
+
+li > a {
+	cursor: pointer;
+}
