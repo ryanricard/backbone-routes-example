@@ -4,4 +4,4 @@ A Backbone.js routes example
 
 Download code and navigate to index.html in your browser.
 
-Copyright 2011 Ryan Ricard
+Use how you see fit.
