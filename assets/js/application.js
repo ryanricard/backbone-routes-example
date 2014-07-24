@@ -69,7 +69,10 @@ $(function(){
 			this.router = new ApplicationRouter();
 
 			//call to begin monitoring uri and route changes
-			Backbone.history.start();
+			//added conditional to use pushState if available & replace the hash in the URI
+			history.pushState ?
+				Backbone.history.start({pushState: true, root: '/'}) :
+				Backbone.history.start();
 		},
 
 		displayHome: function(){
