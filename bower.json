@@ -1,0 +1,22 @@
+{
+  "name": "backbone-routes-example",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ryanricard/backbone-routes-example",
+  "authors": [
+    "Ryan Ricard <ryan.ricard@gmail.com>"
+  ],
+  "license": "Apache",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.1",
+    "bootstrap": "1.2.0"
+  }
+}

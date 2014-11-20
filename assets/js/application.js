@@ -72,19 +72,22 @@ $(function(){
 			Backbone.history.start();
 		},
 
-		displayHome: function(){
+		displayHome: function(event){
 			//update url and pass true to execute route method
-			this.router.navigate("home", true);
+			this.router.navigate("home", {trigger: false});
+			this.router.selectPill($(event.target).parent());
 		},
 
-		displayAbout: function(){
+		displayAbout: function(event){
 			//update url and pass true to execute route method
-			this.router.navigate("about", true);
+			this.router.navigate("about", {trigger: false});
+			this.router.selectPill($(event.target).parent());
 		},
 
-		displayContact: function(){
+		displayContact: function(event){
 			//update url and pass true to execute route method
-			this.router.navigate("contact", true);
+			this.router.navigate("contact", {trigger: false});
+			this.router.selectPill($(event.target).parent());
 		}
 
 	});
